@@ -1,14 +1,16 @@
 import React from 'react';
+
 import './Products.css';
+
 import '../../Media.css';
-import imgBlock1 from '../../img/Frame block 1.png';
-import imgBlock2 from '../../img/Frame block 2.png';
-import imgBlock3 from '../../img/Frame block 3.png';
+
 import ItemProduct from '../ItemProduct/ItemProduct';
+
+import products from "./Products.json";
 
 function Products () {
 
-    const services = [
+    const items = [
         {
             link:'https://youtu.be/j_aPcF0fpaE',
             image:'https://i.ibb.co/fk878Lp/Frame-block-1.png',
@@ -39,15 +41,16 @@ function Products () {
         <section id="services" className="services-area">
             <h2> Conheça o meu trabalho </h2>
             <div className="blocks-area">
-            {services.map(
-            (service, index) =>
-                <ItemProduct>
-                    key={index}
-                    link={service.link}
-                    image={service.image}
-                    title={service.title}
-                </ItemProduct>
-        )}
+            {items.map(
+                (item, index) =>
+                    <ItemProduct>
+                        key={index}
+                        link={item.link}
+                        image={item.image}
+                        title={item.title}
+                        text={item.text}
+                    </ItemProduct>
+            )}
             </div>
     </section>
     )
