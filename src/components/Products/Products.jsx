@@ -39,22 +39,20 @@ function Products () {
     return (
 
         <section id="services" className="services-area">
+
             <h2> Conheça o meu trabalho </h2>
             <div className="blocks-area">
-            {items.map(
-                (item, index) =>
-                    <ItemProduct>
-                        key={index}
-                        link={item.link}
-                        image={item.image}
-                        title={item.title}
-                        text={item.text}
-                    </ItemProduct>
-            )}
-            </div>
-    </section>
-    )
-
+            {products.map((item, index) => (
+            <ItemProduct
+                 key={index}
+                 link={item.link}
+                 image={item.image}
+                 title={item.title}
+                 text={item.text}
+             />
+))}
+</div>
+</section>
+);
 }
-
 export default Products;
