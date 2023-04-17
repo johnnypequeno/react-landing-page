@@ -1,0 +1,59 @@
+{
+    "academicExperience": [
+        {
+            "title":"Comeia Academy Pro - Comeia Labs",
+            "initialYear":"2022",
+            "endYear":"2023"
+        },
+
+        {
+            "title":"Design Editorial - Illustrator e Indesign - Armazém da Criatividade",
+            "initialYear":"2014",
+            "endYear": "2015"
+        },
+
+        {
+            "title":"Marketing Digital em Mídias Sociais - Estácio",
+            "initialYear":"2014",
+            "endYear":"2016"
+        },
+
+        {
+            "title":"Comunicação Social com Habilitação em Jornalismo - Unifavip",
+            "initialYear":"2008",
+            "endYear":"2012"
+        }
+    ],
+
+    "professionalExperience": [
+        {
+            "title":"Produtora Vertigo - Diretor e Atendimento Comercial",
+            "initialYear":"2016",
+            "endYear":"2023"
+        },
+
+        {
+            "title":"Jornal Extra de Pernambuco - Diagramador",
+            "initialYear":"2017",
+            "endYear":"2018"
+        },
+
+        {
+            "title":"Lefil Comunicação - Analista de Mídias Sociais",
+            "initialYear":"2014",
+            "endYear":"2016"
+        },
+
+        {
+            "title":"Blog do Mário Flávio - Editor de conteúdos",
+            "initialYear":"2011",
+            "endYear":"2013"
+        },
+
+        {
+            "title":"Revista Conteúdo - Diagramador",
+            "initialYear":"2011",
+            "endYear":"2012"
+        }
+    ]
+}

@@ -1,0 +1,95 @@
+@media screen and (max-width: 760px){
+
+    header{
+        flex-direction:column;
+        justify-content: space-between;
+        margin: 0 auto;
+        }
+    
+    #title h1 {
+        font-size:30px;
+    }
+    
+    #title span {
+        font-size:30px;
+    }
+    
+    ul {
+        text-align:center;
+        padding: 0;  
+    }
+    
+    main {
+        flex-direction: column;
+        }
+        
+    
+    aside{
+        text-align: center;
+    
+    }
+    
+    h2{
+        font-size: 30px;
+    }
+    
+    p {
+        font-size: 15px;
+        margin: 8px 20px 8px 20px;
+    }
+    
+    .blocks{
+        flex-direction: column;
+    }
+    
+    .area-form h2 {
+        font-size: 25px;
+        margin-bottom:5px;
+    }
+    
+    form-box form{
+        margin: 0 auto;
+        width: 60%;
+    }
+    
+    .btn-submit {
+        width:100%;
+    }
+    
+    .form-box input{
+        width: 300px;
+        align-self: center;
+    }
+    
+    textarea{
+        width:300px;
+        align-self:center;
+    }
+    
+    .content-area h2{
+        font-size: 30px;
+    }
+    
+    .content-area p{
+        max-width:auto;
+        font-size:18px;
+        margin-left: 20px;
+        margin-right:20px;
+        padding:20px;
+    }
+    
+    .blocks-area{
+        flex-direction: column;
+        max-width:50%;
+        margin-bottom:10px;
+    }
+    
+    .block-area{
+        margin-bottom:20px;
+    }
+    
+    .block-area h3{
+        text-align: center;
+    }
+    
+    }
