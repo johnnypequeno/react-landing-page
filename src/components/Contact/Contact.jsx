@@ -7,8 +7,6 @@ function Contact() {
     const [tel, setTel] = useState ("");
     const [message, setMessage] = useState ("");
 
-    console.log (import.meta.env.VITE_WHATSAPP_NUMBER);
-
     function enviarFormulario(event) {
         event.preventDefault();
         console.log ("Formulário enviado!")
