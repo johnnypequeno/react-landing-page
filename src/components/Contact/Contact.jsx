@@ -7,6 +7,8 @@ function Contact() {
     const [tel, setTel] = useState ("");
     const [message, setMessage] = useState ("");
 
+    console.log (import.meta.env.VITE_WHATSAPP_NUMBER);
+
     function enviarFormulario(event) {
         event.preventDefault();
         console.log ("Formulário enviado!")
@@ -15,7 +17,7 @@ function Contact() {
 
         const numeroWhatsapp = import.meta.env.VITE_WHATSAPP_NUMBER;
 
-        const linkWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(texto)}`;
+        const linkWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(text)}`;
 
         window.open (linkWhatsapp, '_blank')
     }
@@ -74,7 +76,7 @@ function Contact() {
                 placeholder= "Deixe sua mensagem" 
                 required 
                 value = {message}
-                onChange={(event) => setMesage(event.target.value)}>
+                onChange={(event) => setMessage(event.target.value)}>
             </textarea>
         </fieldset>
 
