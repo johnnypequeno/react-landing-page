@@ -20,8 +20,21 @@ function Contact() {
         window.open (linkWhatsapp, '_blank')
     }
 
+    function maskTelephone (event) {
+        const text = event.target.value;
+        const textOnlyNumbers = text.replace(/\D/g, '').substring (0, 11);
+
+        let telephoneSetted = textOnlyNumbers.replace(/^(\d{2})(\d{5})(\d{4})/, '($1) $2-$3');
+
+        if (textOnlyNumbers.length < 11) {
+            telephoneSetted = textOnlyNumbers.replace(/^(\d{2})(\d{4})(\d{0,4})/, '($1) $2-$3'); 
+        }
+
+        setTel(telephoneSetted);
+    }
+
     return (
-    <>
+
     <form onSubmit= {enviarFormulario}>
         
         <h2>Entre em contato</h2>
@@ -58,9 +71,9 @@ function Contact() {
                 id= "input-tel" 
                 placeholder= "(99) 99999-9999" 
                 required pattern="^\(\d{2}\) \d{5}-\d{4}$" 
-                maxLength={15}
+                maxLength="15"
                 value = {tel}
-                onChange={(event) => setTel(event.target.value)}
+                onChange={maskTelephone}
             />
         </fieldset>
 
@@ -83,7 +96,6 @@ function Contact() {
         </center>
 
     </form>
-    </>
     /*<>
         <div id="contact" className="area-form">
             <h2>Entre em contato</h2>
