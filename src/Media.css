@@ -42,27 +42,26 @@
         flex-direction: column;
     }
     
-    .area-form h2 {
+    form h2 {
         font-size: 25px;
         margin-bottom:5px;
     }
     
-    form-box form{
+    form{
         margin: 0 auto;
-        width: 60%;
     }
     
-    .btn-submit {
+    center {
         width:100%;
     }
     
-    .form-box input{
-        width: 300px;
+    fieldset {
+        width: 80%;
         align-self: center;
     }
     
     textarea{
-        width:300px;
+        width: 95%;
         align-self:center;
     }
     

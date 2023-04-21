@@ -179,7 +179,7 @@ article img {
 
 /* FORM STYLE */
 
-.area-form{
+form{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,27 +188,28 @@ article img {
   padding-bottom:30px;
 }
 
-.area-form h2{
+form h2{
   font-size: 40px;
   margin-bottom: 15px;
   color: #FFFFFF;
 }
 
-.form-box{
-  border-radius:20px;
-}
-
-.form-box form{
+fieldset {
   display: flex;
   flex-direction: column;
   width: 500px;
-  height: 300px;
-  padding: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
 }
 
-.form-box input {
-  margin-top: 15px;
-  height: 55px;
+fieldset label {
+  color: #FFFFFF;
+}
+
+fieldset input {
+  margin-top: 5px;
+  height: 45px;
   border: none;
   outline: none;
   padding-left: 10px;
@@ -216,7 +217,7 @@ article img {
   font-family: 'Montserrat', sans-serif;
 }
 
-.btn-submit {
+center input {
   color: #034AA6;
   background: #fff;
   font-weight: 700;
@@ -225,12 +226,14 @@ article img {
   line-height: 5px;
   margin-top: 15px;
   text-align: center;
-  width: 20%;
+  border: none;
+  outline: none;
+  border-radius:5px;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
 
-.btn-submit:hover{
+center input:hover{
   transform: transform .2s;
   transform: scale(1.1);
   }
