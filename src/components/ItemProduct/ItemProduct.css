@@ -42,7 +42,7 @@ p {
     
     .blocks-area{
         flex-direction: column;
-        max-width:50%;
+        justify-content: center;
         margin-bottom:10px;
     }
     

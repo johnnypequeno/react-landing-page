@@ -18,14 +18,22 @@
         text-align:center;
         padding: 0;  
     }
+
+    ul li {
+        margin: 8px;
+    }
     
     main {
         flex-direction: column;
         }
-        
+    
+    article img {
+        width: 90%;
+    }
     
     aside{
         text-align: center;
+        width: 90%;
     
     }
     
@@ -79,7 +87,6 @@
     
     .blocks-area{
         flex-direction: column;
-        max-width:50%;
         margin-bottom:10px;
     }
     
