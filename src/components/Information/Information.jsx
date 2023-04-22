@@ -13,7 +13,7 @@ function Information() {
          <aside>
              <h2>Olá, vamos produzir juntos?</h2>
              <p> Sou jornalista e produtor audiovisual, com mais de 10 anos de carreira. Aqui, você vai conhecer o meu trabalho e descobrir como posso ajudar a produzir histórias de sucesso para sua marca.</p>
-        <a href="/curriculum" id="saiba-btn"><li>Saiba mais</li></a>
+        <a href="/products" id="saiba-btn"><li>Saiba mais</li></a>
         </aside>
     </main> 
     <Portfolio></Portfolio>
